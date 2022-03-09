@@ -1,0 +1,229 @@
+
+h1 {
+text-align: center;
+color: white;
+font-size: 4em;
+font-family: 'Exo 2', sans-serif;
+font-weight: 800;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 3em;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.button_original {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    background-color: #0B1722;
+    color: white;
+    Width: 10.6em; 
+    Height:2.8em;
+    padding: 1em;
+    border-radius: 0.5em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.button_original:hover{
+    background-color: #1B446A;
+}
+
+.button_original:active{
+    background-color: #102B43;
+}
+
+.button_check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5em;
+    margin-right: 0.8em;
+    background-color: #0B1722;
+    color: white;
+    Width: 10.6em; 
+    Height:2.8em;
+    padding: 1em;
+    border-radius: 0.5em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.button_check:hover{
+    background-color: #1B446A;
+}
+
+.button_check:active{
+    background-color: #102B43;
+}
+
+.original_text {
+    Width: 68em; 
+    Height:14em;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.input_text {
+    Width: 68em; 
+    Height:2.7em;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.border_brains {
+    position: relative;
+    background-color: #0B1722;
+    Width: 14em; 
+    Height:5.5em;
+    border-radius: 1em;
+    margin-left: 1.1em;
+    margin-right: 0.8em;
+    margin-top: 1.9em;
+    margin-bottom: 1.9em;
+    padding: 1em;
+  }
+
+.brains_img {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.text_nickname {
+    text-align: center;
+    color: #5C5C5C; 
+    font-size: 1.5em;
+}
+/*
+body{
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+}*/
+
+
+
+.background_img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -999;
+    background: url(./background.png), linear-gradient(90deg, #19B600 0%, #000000 100%) center no-repeat ;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.hr {
+    margin: 0; 
+    padding: 4px; 
+}
+
+.hr li {
+    display: inline; 
+    margin-right: 5px; 
+    padding: 3px; 
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    direction: column;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 5em;
+    margin-left: 8.3em;
+    margin-bottom: 3em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 0.5em;
+    Width: 73em; 
+    Height:3.5em;
+    border: 0.2em solid #000;  
+}
+
+.svg_incubator{
+    margin-bottom: 0.5em;  
+}
+
+#particles-js{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+#result{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 9999;
+}
+
+@media all and (max-width: 1367px){
+ body{width: 100%;}
+ body{height: 100%;}
+ .original_text{Width: 60em;}
+ .input_text{Width: 60em;}
+ footer{Width: 70em;}
+}
+
+@media all and (max-width: 1267px){
+    body{width: 90%;}
+    body{height: 90%;}
+    .original_text{Width: 50em;}
+    .input_text{Width: 50em;}
+    footer{Width:60em;}
+}
+
+@media all and (max-width: 1167px){
+body{width: 80%;}
+body{height: 80%;}
+.original_text{Width: 40em;}
+.input_text{Width: 40em;}
+footer{Width: 50em;}
+}
+
+@media all and (max-width: 1133px){
+    body{width: 70%;}
+    body{height: 70%;}
+    .original_text{Width: 30em;}
+    .input_text{Width: 30em;}
+    footer{Width: 40em;}
+}
+
+@media all and (max-width: 1067px){
+    body{width: 60%; height: 60%;}
+    .original_text{Width: 17em; margin-bottom: 2em;}
+    .input_text{Width: 17em; margin-top: 2em;}
+    footer{Width: 17em; height: 11em; display: flex; direction: none;  
+        justify-content: center;
+        direction: column;
+        flex-wrap: wrap;
+        direction: column;
+        flex-wrap: wrap;}
+    h1{font-size: 1.5em;}
+    h2{font-size: 1.5em;}
+}
